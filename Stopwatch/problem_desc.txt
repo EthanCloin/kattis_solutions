@@ -1,0 +1,11 @@
+Robin just received a stopwatch from her grandfather. Robin’s stopwatch has a single button. Pressing the button alternates between stopping and starting the stopwatch’s timer. When the timer is on, the displayed time increases by 1 every second.
+
+Initially the stopwatch is stopped and the timer reads 0 seconds. Given a sequence of times that the stopwatch button is pressed, determine what the stopwatch’s timer displays.
+
+Input
+The first line of input contains a single integer 𝑁 (1≤𝑁≤1000), which is the number of times the stopwatch was pressed.
+
+The next 𝑁 lines describe the times the stopwatch’s button was pressed in increasing order. Each line contains a single integer 𝑡 (0≤𝑡≤106), which is the time the button was pressed. No two button presses happen on the same second.
+
+Output
+Display still running if the stopwatch’s timer is still running after all button presses were made. Otherwise display the number of seconds displayed on the stopwatch’s timer.
